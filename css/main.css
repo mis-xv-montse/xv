@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-    background: radial-gradient(circle, #E8D3A8, transparent);
+    background: radial-gradient(circle, #F4E1DD, transparent);
 }
 
 hr {
@@ -151,13 +151,13 @@ hr {
 }
 
 .grid img {
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
 }
 @media (max-width: 600px) {
     .grid img {
-        height: 250px;
-        width: 250px;
+        height: 100px;
+        width: 100px;
     }
 }
 

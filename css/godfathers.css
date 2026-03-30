@@ -1,8 +1,19 @@
-.title-godfathers {
+.title-fathers {
     text-align: center;
     position: relative;
     font-size: 1.2em;
     /* margin-top: 60px; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #6B5443 ;
+    font-weight: 400;
+}
+
+.title-fathers span {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    /* border-bottom: 1px solid #CFA3B2; */
 }
 
 @media (min-width: 1200px) {
@@ -17,6 +28,9 @@
 
 .title-godfathers
 {
+    text-align: center;
+    position: relative;
+    font-size: 1.2em;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     color: #6B5443 ;
@@ -37,6 +51,17 @@
         text-align: center;
     }
     .title-godfathers span {
+        font-size: 15px;
+        display: block;
+        font-size: 1.2em;
+    }
+
+    .title-fathers {
+        font-size: 15px;
+        font-weight: 200;
+        text-align: center;
+    }
+    .title-fathers span {
         font-size: 15px;
         display: block;
         font-size: 1.2em;
