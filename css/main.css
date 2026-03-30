@@ -273,8 +273,25 @@ hr {
 
 .star {
     position: absolute;
-background-color: rgb(191, 174, 219);
+    background-color: rgb(191, 174, 219);
     border-radius: 50%;
     opacity: 0.15; 
     z-index: -1;
+}
+
+.texto-con-flores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.texto-con-flores .text {
+    max-width: 600px;
+}
+
+.flor {
+    width: 60px;
+    height: auto;
 }
