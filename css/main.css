@@ -291,7 +291,58 @@ hr {
     max-width: 600px;
 }
 
-.flor {
+.florTexto {
     width: 60px;
     height: auto;
 }
+
+
+.lluvia-flores {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.flor {
+    position: absolute;
+    top: -80px;
+    width: 35px;
+    opacity: 0.8;
+    animation: caer linear infinite;
+}
+
+/* Animación premium realista */
+@keyframes caer {
+
+    0% {
+        transform: translateY(-80px) translateX(0px) rotate(0deg);
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0.9;
+    }
+
+    50% {
+        transform: translateY(50vh) translateX(25px) rotate(180deg);
+    }
+
+    100% {
+        transform: translateY(110vh) translateX(-25px) rotate(360deg);
+        opacity: 0.2;
+    }
+
+}
+
+.flor:nth-child(1) { left: 5%;  animation-duration: 14s; animation-delay: 0s; }
+.flor:nth-child(2) { left: 20%; animation-duration: 10s; animation-delay: 2s; }
+.flor:nth-child(3) { left: 35%; animation-duration: 12s; animation-delay: 4s; }
+.flor:nth-child(4) { left: 50%; animation-duration: 16s; animation-delay: 1s; }
+.flor:nth-child(5) { left: 65%; animation-duration: 11s; animation-delay: 3s; }
+.flor:nth-child(6) { left: 80%; animation-duration: 13s; animation-delay: 5s; }
+.flor:nth-child(7) { left: 95%; animation-duration: 9s;  animation-delay: 6s; }
