@@ -110,6 +110,7 @@ hr {
 .parent {
     text-align: center;
     margin: 35px;
+     flex: 1; 
 }
 
 .parent img {
@@ -118,7 +119,8 @@ hr {
 }
 
 @media (max-width: 600px) {
-     .parents {
+
+    .parents {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -149,13 +151,13 @@ hr {
 }
 
 .grid img {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
 }
 @media (max-width: 600px) {
     .grid img {
-        height: 100px;
-        width: 100px;
+        height: 250px;
+        width: 250px;
     }
 }
 

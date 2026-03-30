@@ -1,0 +1,44 @@
+.title-godfathers {
+    text-align: center;
+    position: relative;
+    font-size: 1.2em;
+    /* margin-top: 60px; */
+}
+
+@media (min-width: 1200px) {
+    .title-godfathers::before,
+.title-godfathers::after {
+    content: "~~~~~~~~~~~~~~~~~~~~~";
+    color: #CFA3B2;
+    font-size: 1em;
+    margin: 0 10px;
+}
+}
+
+.title-godfathers
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #6B5443 ;
+    font-weight: 400;
+}
+
+
+.title-godfathers span {
+    font-weight: bold;
+    margin-top: 10px;
+    /* border-bottom: 1px solid #CFA3B2; */
+}
+
+@media (max-width: 600px) {
+    .title-godfathers {
+        font-size: 15px;
+        font-weight: 200;
+        text-align: center;
+    }
+    .title-godfathers span {
+        font-size: 15px;
+        display: block;
+        font-size: 1.2em;
+    }
+}
