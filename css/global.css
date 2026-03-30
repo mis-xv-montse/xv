@@ -4,7 +4,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 4rem;
     text-align: center;
-    color: #800000;
+    color: #BFAEDB;
     margin-top: 20px;
     margin-bottom: 20px; 
     /* font-weight: 200;  */
@@ -14,7 +14,7 @@
     font-family: "Dancing Script", serif;
     font-size: 30px;
     text-align: center;
-    color: #800000;
+    color: #D9A5A0;
     font-weight: 500;
 }
 
@@ -23,7 +23,7 @@
     font-family: "Dancing Script", serif;
     font-size: 4rem;
     text-align: center;
-    color: #800000;
+    color: #D9A5A0;
     margin-top: 20px;
     margin-bottom: 20px; 
     font-weight: 900; /* 400 es la normal */
@@ -33,7 +33,7 @@
 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
-    color: #B22222 ;
+    color: #6B5443 ;
     font-weight: 500; /* 400 es la normal */
 }
 
@@ -41,7 +41,7 @@
 {
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
-    color: #951f1feb ;
+    color: #6B5443 ;
     font-weight: 800; /* 400 es la normal */
 }
 
@@ -50,6 +50,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     text-align: center;
+    color: #4A4A4A;
 }
 
 .itinerary-child span {
